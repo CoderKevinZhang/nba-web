@@ -1,5 +1,5 @@
 import React from 'react';
-// import { ShotChart } from './ShotChart';
+import { ShotChart } from './ShotChart';
 import { Profile } from './Profile';
 import nba from 'nba';
 
@@ -23,7 +23,7 @@ export class Main extends React.Component {
    return (
      <div className="main">
        <Profile playerInfo={this.state.playerInfo} />
-       {/* <ShotChart playerId={this.state.playerId} /> */}
+       <ShotChart playerId={this.state.playerId} />
      </div>
    );
  }

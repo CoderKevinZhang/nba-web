@@ -28,7 +28,7 @@ export class DataViewContainer extends React.Component {
  }
 
  render() {
-   console.log('render');
+   console.log(this.state.displayTooltip);
    return (
      <div className="data-view">
        <ShotChart
